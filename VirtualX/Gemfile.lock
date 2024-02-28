@@ -63,7 +63,7 @@ GEM
     prawn (0.11.1)
       pdf-reader (>= 0.9.0)
       ttfunk (~> 1.0.0)
-    rack (1.2.5)
+    rack (1.2.8)
     rack-mount (0.6.14)
       rack (>= 1.0.0)
     rack-test (0.5.7)
@@ -106,18 +106,18 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  acts_as_tree
+  acts_as_tree (= 0.2.0)
   authlogic (= 2.1.6)
   declarative_authorization (= 0.5.2)
-  mysql
+  mysql (= 2.8.1)
   nifty-generators (= 0.4.4)
   paperclip (~> 2.3)
-  pdfkit
+  pdfkit (= 0.5.2)
   prawn (~> 0.11.1)
   rails (= 3.0.3)
   rails3-generators (= 0.17.3)
-  rails3-jquery-autocomplete
+  rails3-jquery-autocomplete (= 1.0.6)
   rake (= 0.8.7)
-  ruby-debug
+  ruby-debug (~> 0.10.4)
   truncate_html (= 0.5.5)
   will_paginate (= 2.3.15)
